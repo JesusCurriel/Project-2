@@ -78,26 +78,26 @@ to answer the questions we asked before
 Question 2:
     How do people tip when compared to fare charged and payment method?
 
-![Figure 2a][Credit.PNG]
+![Figure 2a](Credit.PNG)
 
 The preferred way of payment is the credit card type, as shown from the majority of blue dots
 
 Horizontal rows show fixed amounts for the tips, like 1,2,3 or 5 $, independently from the fare amount 
 
-![Figure 2b][Mobile.PNG]
+![Figure 2b](Mobile.PNG)
 
 For mobile payments we can see a linear behaviour for the tips, 
 probably due to the possibility on choosing the % of tips according to the fair (18%, 20%, 25%)
 
 
-![Figure 2c][Cash.PNG]
+![Figure 2c](Cash.PNG)
 
 For the Cash payments the tips is always zero, probably because there is no track of these.
 
 
 Multi-View Interaction:
 
-![Brushable Matrix Scatter Plot][Interaction.gif]
+![Brushable Matrix Scatter Plot](Interaction.gif)
 
 
 Thanks the usage of a brushing operation is possible to select specific range of data. It will result with a window on which the dots are colored with respect to the remaining ones that will be filled with a blackcolor. These dots will be highligted on every graph. However brushing over any of the [Fare vs Fare, Tips vs Tips, or Extra vs Extra] graphs, the brush + graph acts like a slider, moving up or down a value and showing it's respective dots associated with it. 
@@ -117,7 +117,7 @@ What we see is that there is no correlation between	 higher extra charges and th
 
 Single-View Interaction:
 
-![Interactive Line Graph][Interactive_Map.png]
+![Interactive Line Graph](Interactive_Map.png)
 
 
 The plot used to analyse this kind of behaviour is a multiline plot in which each colored line encodes a specific month of the year. On the y axis is reported the number of rides, while on the x axis, the different days of the month. 
@@ -129,7 +129,7 @@ This also helps with overplotting
 
 With this we can create charts to compare months together like so
 
-![Figure C][Map_Comparison.png]
+![Figure C](Map_Comparison.png)
 
 With this we can view trends easier now that overplotting is not an issue
 
