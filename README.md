@@ -15,31 +15,7 @@ Dataset:
 For this project we are using the taxi trips dataset. We choose this dataset because it has a lot of different numerical attributes to which we can compare with.
 
 
-Attribute                   Description                                                 Type         
-
-Trip ID	                    A unique identifier for the trip.                           Plain Text
-Taxi ID	                    A unique identifier for the taxi.                           Plain Text
-Trip Start Timestamp	    When the trip started, rounded to the nearest 15 minutes.   Date & Time
-Trip End Timestamp	        When the trip ended, rounded to the nearest 15 minutes.     Date & Time
-Trip Seconds	            Time of the trip in seconds.                                Number
-Trip Miles	                Distance of the trip in miles.                              Number
-Pickup Census Tract	        The Census Tract where the trip began.                      Plain Text
-Dropoff Census Tract	    The Census Tract where the trip ended.                      Plain Text
-Pickup Community Area	    The Community Area where the trip began.                    Number
-Dropoff Community Area	    The Community Area where the trip ended.                    Number
-Fare	                    The fare for the trip.                                      Number
-Tips	                    The tip for the trip.                                       Number
-Tolls	                    The tolls for the trip.                                     Number
-Extras	                    Extra charges for the trip.                                 Number
-Trip Total	                Total cost of the trip.                                     Number
-Payment Type	            Type of payment for the trip.                               Plain Text
-Company	                    The taxi company.                                           Plain Text
-Pickup Centroid Latitude	The latitude of the center of the pickup census tract       Number
-Pickup Centroid Longitude	The longitude of the center of the pickup census tract      Number
-Pickup Centroid Location	The location of the center of the pickup census tract       Point
-Dropoff Centroid Latitude	The latitude of the center of the dropoff census tract      Number
-Dropoff Centroid Longitude	The longitude of the center of the dropoff census tract     Number
-Dropoff Centroid Location	The location of the center of the dropoff census tract      Point
+![Attributes](Plots/Dataset.png)
 
 Total Number of Attributes: 26
 
