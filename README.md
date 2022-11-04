@@ -1,3 +1,15 @@
+
+
+Link to our Observable Notebooks:
+
+Interactive Line Graph:
+https://observablehq.com/d/ef54ccc18d2fa9fb
+
+Brushable Matrix Scatter Plot
+https://observablehq.com/d/126adc4a04817197
+
+
+
 Dataset:
 
 For this project we are using the taxi trips dataset. We choose this dataset because it has a lot of different numerical attributes to which we can compare with.
